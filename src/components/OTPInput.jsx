@@ -22,12 +22,12 @@ const OTPInput = ({length = 4, onOTPSubmit = () => {}}) => {
       setOtp(newOTP);
 
       const combinedOTPNumber = newOTP.join("");
-      if(combinedOTPNumber.length === length) {
-        onOTPSubmit(combinedOTPNumber);
-      }
-
+      
       if(digit && index < length - 1) {
         inputRef.current[index + 1].focus();
+      }
+      if(combinedOTPNumber.length === length) {
+        onOTPSubmit(combinedOTPNumber);
       }
 
     }
