@@ -7,7 +7,53 @@
     height: 100vh;
     flex-direction: column;
     gap: 2em;
+    font-family: 'Montserrat', serif;
 }
+
+h1 {
+    font-family: "Montserrat", serif;
+    font-size: 50px;
+    color: whitesmoke;
+}
+
+.heading-container p{
+    font-size: 15px;
+    margin-top: 8px;
+    opacity: 60%;
+}
+
+button {
+    background-color: #112D4E;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font: 'Montserrat', serif;
+    padding: 12px;
+    font-size: 18px;
+    margin-bottom: 8px;
+    width: 60%;
+    font-weight: 200;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+button:hover {
+    opacity: 50%;
+}
+
+.button-container p {
+    font-size: 15px;
+    opacity: 60%;   
+}
+
+.button-container span {
+    color: #3F72AF;
+    opacity: 100% ;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
 
 .form-container {
     background-color: azure;
@@ -32,3 +78,9 @@
     margin:0 0.5em;
     text-align: center;
 }
+
+.tiro-devanagari-hindi-regular {
+    font-family: "Tiro Devanagari Hindi", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
